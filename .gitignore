@@ -1,0 +1,69 @@
+# Dependencies & Environments
+node_modules/
+.pnp
+.pnp.*
+.yarn/*
+venv/
+.venv/
+env/
+ENV/
+bin/
+lib/
+include/
+
+# Python caching & build artifacts
+**/__pycache__/
+*.pyc
+*.pyo
+*.pyd
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+parts/
+sdist/
+var/
+wheels/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Next.js & Frontend builds
+.next/
+out/
+.vercel
+*.tsbuildinfo
+next-env.d.ts
+
+# Security / Sensitive credentials
+DEPLOYMENT.md
+backend/firebase-service-account.json
+frontend/.env.local
+.env
+.env.*
+*.pem
+*.key
+
+# Machine Learning model binaries (generated dynamically)
+backend/ai/models/*.joblib
+
+# Debugging & logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.pnpm-debug.log*
+
+# System & IDE files
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.swp
