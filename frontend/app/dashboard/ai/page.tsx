@@ -67,9 +67,9 @@ export default function AIInsightsPage() {
           clearInterval(timer);
         }
       }, 20000);
-    } catch (err: any) {
+    } catch (err: unknown) {
       console.error(err);
-      toast.error(err.response?.data?.detail || "Failed to trigger retraining.");
+      toast.error((err as { response?: { data?: { detail?: string } } })?.response?.data?.detail || "Failed to trigger retraining.");
       setIsRetraining(false);
       clearInterval(timer);
     }
