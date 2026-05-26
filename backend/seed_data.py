@@ -30,21 +30,21 @@ DEMO_USERS = [
 ]
 
 DEMO_PRODUCTS = [
-    {"name": "Wireless Earbuds Pro", "description": "Premium wireless earbuds with noise cancellation", "price": 2499, "stock": 45, "sku": "ELEC-001", "category": "Electronics", "image_url": ""},
-    {"name": "Smart Watch X200", "description": "Fitness tracker with heart rate monitoring", "price": 4999, "stock": 30, "sku": "ELEC-002", "category": "Electronics", "image_url": ""},
-    {"name": "Organic Green Tea", "description": "Premium organic green tea, 100 bags", "price": 349, "stock": 8, "sku": "GROC-001", "category": "Groceries", "image_url": ""},
-    {"name": "Basmati Rice 5kg", "description": "Premium aged basmati rice", "price": 599, "stock": 5, "sku": "GROC-002", "category": "Groceries", "image_url": ""},
-    {"name": "Cotton T-Shirt", "description": "Premium cotton round neck t-shirt", "price": 799, "stock": 60, "sku": "FASH-001", "category": "Fashion", "image_url": ""},
-    {"name": "Leather Wallet", "description": "Genuine leather bifold wallet", "price": 1299, "stock": 25, "sku": "FASH-002", "category": "Fashion", "image_url": ""},
-    {"name": "USB-C Cable 2m", "description": "Fast charging braided USB-C cable", "price": 299, "stock": 3, "sku": "ELEC-003", "category": "Electronics", "image_url": ""},
-    {"name": "Hand Sanitizer 500ml", "description": "Alcohol-based hand sanitizer", "price": 149, "stock": 100, "sku": "HLTH-001", "category": "Health", "image_url": ""},
-    {"name": "Notebook Set (5 pcs)", "description": "A5 ruled notebooks, premium quality", "price": 249, "stock": 40, "sku": "STAT-001", "category": "Stationery", "image_url": ""},
-    {"name": "Bluetooth Speaker", "description": "Portable waterproof bluetooth speaker", "price": 1999, "stock": 15, "sku": "ELEC-004", "category": "Electronics", "image_url": ""},
-    {"name": "Masala Chai Mix", "description": "Authentic Indian masala chai blend 200g", "price": 199, "stock": 7, "sku": "GROC-003", "category": "Groceries", "image_url": ""},
-    {"name": "Running Shoes", "description": "Lightweight running shoes with cushioning", "price": 2999, "stock": 20, "sku": "FASH-003", "category": "Fashion", "image_url": ""},
-    {"name": "Phone Case Universal", "description": "Shockproof transparent phone case", "price": 399, "stock": 50, "sku": "ELEC-005", "category": "Electronics", "image_url": ""},
-    {"name": "Almond Butter 400g", "description": "Natural almond butter, no added sugar", "price": 649, "stock": 12, "sku": "GROC-004", "category": "Groceries", "image_url": ""},
-    {"name": "Yoga Mat Premium", "description": "Non-slip yoga mat, 6mm thick", "price": 899, "stock": 18, "sku": "HLTH-002", "category": "Health", "image_url": ""},
+    {"name": "Wireless Earbuds Pro", "description": "Premium wireless earbuds with noise cancellation", "price": 2499, "stock": 45, "sku": "ELEC-001", "category": "Electronics", "image_url": "https://images.unsplash.com/photo-1590658268037-6bf12165a8df?w=500&auto=format&fit=crop&q=60"},
+    {"name": "Smart Watch X200", "description": "Fitness tracker with heart rate monitoring", "price": 4999, "stock": 30, "sku": "ELEC-002", "category": "Electronics", "image_url": "https://images.unsplash.com/photo-1508685096489-7aacd43bd3b1?w=500&auto=format&fit=crop&q=60"},
+    {"name": "Organic Green Tea", "description": "Premium organic green tea, 100 bags", "price": 349, "stock": 8, "sku": "GROC-001", "category": "Groceries", "image_url": "https://images.unsplash.com/photo-1576092768241-dec231879fc3?w=500&auto=format&fit=crop&q=60"},
+    {"name": "Basmati Rice 5kg", "description": "Premium aged basmati rice", "price": 599, "stock": 5, "sku": "GROC-002", "category": "Groceries", "image_url": "https://images.unsplash.com/photo-1586201375761-83865001e31c?w=500&auto=format&fit=crop&q=60"},
+    {"name": "Cotton T-Shirt", "description": "Premium cotton round neck t-shirt", "price": 799, "stock": 60, "sku": "FASH-001", "category": "Fashion", "image_url": "https://images.unsplash.com/photo-1521572267360-ee0c2909d518?w=500&auto=format&fit=crop&q=60"},
+    {"name": "Leather Wallet", "description": "Genuine leather bifold wallet", "price": 1299, "stock": 25, "sku": "FASH-002", "category": "Fashion", "image_url": "https://images.unsplash.com/photo-1590247813693-5541d1c609fd?w=500&auto=format&fit=crop&q=60"},
+    {"name": "USB-C Cable 2m", "description": "Fast charging braided USB-C cable", "price": 299, "stock": 3, "sku": "ELEC-003", "category": "Electronics", "image_url": "https://images.unsplash.com/photo-1611532736597-de2d4265fba3?w=500&auto=format&fit=crop&q=60"},
+    {"name": "Hand Sanitizer 500ml", "description": "Alcohol-based hand sanitizer", "price": 149, "stock": 100, "sku": "HLTH-001", "category": "Health", "image_url": "https://images.unsplash.com/photo-1584483766114-2cea6facdf57?w=500&auto=format&fit=crop&q=60"},
+    {"name": "Notebook Set (5 pcs)", "description": "A5 ruled notebooks, premium quality", "price": 249, "stock": 40, "sku": "STAT-001", "category": "Stationery", "image_url": "https://images.unsplash.com/photo-1531346878377-a5be20888e57?w=500&auto=format&fit=crop&q=60"},
+    {"name": "Bluetooth Speaker", "description": "Portable waterproof bluetooth speaker", "price": 1999, "stock": 15, "sku": "ELEC-004", "category": "Electronics", "image_url": "https://images.unsplash.com/photo-1608043152269-423dbba4e7e1?w=500&auto=format&fit=crop&q=60"},
+    {"name": "Masala Chai Mix", "description": "Authentic Indian masala chai blend 200g", "price": 199, "stock": 7, "sku": "GROC-003", "category": "Groceries", "image_url": "https://images.unsplash.com/photo-1595981267035-7b04ca84a82d?w=500&auto=format&fit=crop&q=60"},
+    {"name": "Running Shoes", "description": "Lightweight running shoes with cushioning", "price": 2999, "stock": 20, "sku": "FASH-003", "category": "Fashion", "image_url": "https://images.unsplash.com/photo-1542291026-7eec264c27ff?w=500&auto=format&fit=crop&q=60"},
+    {"name": "Phone Case Universal", "description": "Shockproof transparent phone case", "price": 399, "stock": 50, "sku": "ELEC-005", "category": "Electronics", "image_url": "https://images.unsplash.com/photo-1603302576837-37561b2e2302?w=500&auto=format&fit=crop&q=60"},
+    {"name": "Almond Butter 400g", "description": "Natural almond butter, no added sugar", "price": 649, "stock": 12, "sku": "GROC-004", "category": "Groceries", "image_url": "https://images.unsplash.com/photo-1505576399279-565b52d4ac71?w=500&auto=format&fit=crop&q=60"},
+    {"name": "Yoga Mat Premium", "description": "Non-slip yoga mat, 6mm thick", "price": 899, "stock": 18, "sku": "HLTH-002", "category": "Health", "image_url": "https://images.unsplash.com/photo-1592432678016-e910b452f9a2?w=500&auto=format&fit=crop&q=60"},
 ]
 
 def seed():
